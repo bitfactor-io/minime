@@ -18,9 +18,5 @@ contract BitfactorToken is MiniMeToken {
     controller = msg.sender;
   }
 
-  function () payable public {
-    revert();
-  }
-
 }
 
